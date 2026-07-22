@@ -1,0 +1,28 @@
+{
+  "name": "genpark-autonomous-commerce-data-optimizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Autonomous e-commerce data integrity, product tagging, and AEO optimizer.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "data-optimization",
+    "aeo",
+    "seo",
+    "catalog-cleaner"
+  ],
+  "inputs": {
+    "raw_catalog": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "optimized_catalog": {
+      "type": "array"
+    },
+    "quality_score_improvement": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
